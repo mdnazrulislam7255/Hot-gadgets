@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-bottom: 110px;
+}
+.slider-bg{
+    
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 12px lightgrey;
+}
+ .headline h1::after{
+    content: "";
+    height: 8px;
+    width: 138px;
+    background-image: linear-gradient(90deg,#FFC221,#FF9C35);
+    position: absolute;
+    left: 44%;
+    top: 100%;
+    border-radius: 5%;
+}
+.bag{
+    padding: 60px 20px;
+    border-radius: 0px 20px 0px 35px;
+    background-color: white;
+    box-shadow: 5px 5px 12px lightgrey;
+}
+.perfume{
+    padding: 60px 20px;
+    border-radius: 20px 0px 35px 0px;
+    background-color: white;
+    box-shadow: 5px 5px 12px lightgrey;
+}
+.shoe{
+    padding: 60px 20px;
+    border-radius: 20px 0px 35px 0px;
+    background-color: white;
+    box-shadow: 5px 5px 12px lightgrey;
+    margin-top: 15px;
+}
+#pale{
+    height: 500px;
+    width: 600px;
+}
+.carousel-inner .carousel-item {
+    transition: -webkit-transform 2s ease;
+    transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
+  }
